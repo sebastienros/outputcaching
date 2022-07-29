@@ -1,12 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>ASP.NET Core middleware for caching HTTP responses on the server.</Description>
     <TargetFramework>net6.0</TargetFramework>
     <IsPackable>true</IsPackable>
     <IsTrimmable>true</IsTrimmable>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>Preview.OutputCaching</PackageId>
+    <Title>Output Caching - .NET 7 Preview</Title>
+    <Description>ASP.NET Core middleware for caching HTTP responses on the server.</Description>
   </PropertyGroup>
 
   <ItemGroup>
