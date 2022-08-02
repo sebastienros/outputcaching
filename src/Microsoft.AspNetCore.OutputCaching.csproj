@@ -10,15 +10,13 @@
     <PackageId>Preview.OutputCaching</PackageId>
     <Title>Output Caching - .NET 7 Preview</Title>
     <Description>ASP.NET Core middleware for caching HTTP responses on the server.</Description>
-    <PackageReadmeFile>../README.md</PackageReadmeFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="Microsoft.AspNetCore.OutputCaching.Tests" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="all" />
   </ItemGroup>
   
-  <ItemGroup>
-    <FrameworkReference Include="Microsoft.AspNetCore.App" />
-  </ItemGroup>
-
 </Project>
