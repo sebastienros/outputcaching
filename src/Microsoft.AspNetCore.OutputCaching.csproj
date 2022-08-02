@@ -10,6 +10,7 @@
     <PackageId>Preview.OutputCaching</PackageId>
     <Title>Output Caching - .NET 7 Preview</Title>
     <Description>ASP.NET Core middleware for caching HTTP responses on the server.</Description>
+    <PackageReadmeFile>../README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
